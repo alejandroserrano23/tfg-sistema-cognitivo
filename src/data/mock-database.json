@@ -1,0 +1,26 @@
+{
+  "pacientes": [
+    {
+      "id": "p_001",
+      "nombre": "Pedro Serrano",
+      "nivel_deterioro": "moderado"
+    }
+  ],
+  "historialDeSesiones": [
+    {
+      "id": "s_001",
+      "id_paciente": "p_001",
+      "fecha": "2026-06-04T10:00:00Z",
+      "bloque_activo": "medio",
+      "tiempo_resolucion_ms": 45000,
+      "tasa_aciertos": 0.8,
+      "alertas_de_frustracion": false
+    }
+  ],
+  "datosEmocionalesRemotos": {
+    "p_001": {
+      "vocabulario_significativo": ["PEDRO", "SERRANO", "MADRID", "CARMEN", "LUCIA", "FUTBOL", "PALOMA", "PUEBLO", "HUERTO"],
+      "numeros_significativos": ["1952", "2026", "28001", "74", "12", "30", "5"]
+    }
+  }
+}
